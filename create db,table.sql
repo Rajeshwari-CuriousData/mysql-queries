@@ -1,0 +1,10 @@
+create database campus;
+use campus;
+create table student(s_id int,name varchar(20),s_dept varchar(20),s_age  int,primary key(s_id));
+insert into student values(1, "Anusha","maths",23);
+insert into student values(2, "Anusha","physics",23);
+insert into student values(3, "vasu","maths",23);
+insert into student values(4, "Raji","statistics",23);
+insert into student values(5, "Manju","computers",23);
+insert into student values(6, "kavya","history",23);
+select * from student;
