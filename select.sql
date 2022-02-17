@@ -1,0 +1,16 @@
+use campus;
+select name,s_dept from student;
+select  name,s_dept from student where s_dept="maths";
+select distinct  s_dept from student;
+select * from student where s_dept="maths" and name= "vasu";
+select * from student where s_dept="maths" and name= "Raji";
+select * from student where s_dept="maths" or  name="Raji";
+select s_dept from student where s_dept="maths" or  name="Raji";
+select s_dept from  student where not name ="Raji";
+select s_dept from  student where not name ="Raji"and s_dept="maths";
+select s_dept from  student where not name ="Raji"and s_dept="maths" or s_dept="statistics";
+select * from student where s_id between 1 and 4; 
+select * from student where s_id between 1 and 4 and s_dept="maths";
+select * from student where s_id between 1 and 4 and s_dept="maths" or s_dept="physics";
+select * from Student where name like 'A%';
+select * from Student where s_age like '2_';
