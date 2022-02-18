@@ -1,0 +1,11 @@
+use sakila;
+select * from  film;
+Select min(length) from film;
+select max(length) from film;
+select count(*) from film;
+select count(length) from film where length=180;
+select sum(length)from film;
+select sum(length)from film where rental_duration=6;
+select count(length) from film;
+select avg(rental_rate) from film;
+select avg(rental_rate) from film ;
